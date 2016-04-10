@@ -1,4 +1,4 @@
-FROM quay.io/alaska/java
+FROM quay.io/alaskaicygiant/java
 MAINTAINER Owen Ouyang <owen.ouyang@live.com>
 
 RUN apt-get install -y nodejs npm
