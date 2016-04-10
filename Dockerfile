@@ -1,6 +1,7 @@
 FROM quay.io/alaskaicygiant/java
 MAINTAINER Owen Ouyang <owen.ouyang@live.com>
 
+RUN apt-get update
 RUN apt-get install -y nodejs npm
 RUN npm install -g npm
 
